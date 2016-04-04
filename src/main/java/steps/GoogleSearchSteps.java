@@ -4,7 +4,9 @@ import net.thucydides.core.annotations.Step;
 import pages.GoogleSearchPage;
 import pages.SearchResultsPage;
 
-import static junit.framework.TestCase.assertTrue;
+import static org.junit.Assert.assertTrue;
+
+//import static com.thoughtworks.selenium.SeleneseTestBase.assertTrue;
 
 public class GoogleSearchSteps {
     GoogleSearchPage googleSearchPage;
